@@ -17,10 +17,6 @@ By participating, you are expected to uphold this code. Please report unacceptab
 ## I Just Have a Question
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
-We have an official message board with a detailed FAQ and where the community chimes in with helpful advice if you have questions.
-* [Discuss, the official Atom and Electron message board](https://discuss.atom.io)
-* [Atom FAQ](https://discuss.atom.io/c/faq)
-
 If chat is more your speed, you can join the Tadukooverse Discord server:
 * [Join the Tadukooverse Discord server](https://discord.gg/cWzhbU7)
 	* Even though Discord is a chat service, sometimes it takes some time for community members to respond &mdash; please be patient!
