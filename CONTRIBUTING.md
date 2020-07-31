@@ -14,7 +14,7 @@ and feel free to propose changes to this document in a pull request.
 * [Vision](#vision)
 * [Main Projects](#main-projects)
 	* [Tadukoo Util](#tadukoo-util)
-	* [Tadukoo Engine/Launcher](#tadukoo-engine-launcher)
+	* [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
 
 ## Code of Conduct
 This project and everyone participating in it is governed by the [Tadukooverse Code of Conduct](CODE_OF_CONDUCT.md). 
