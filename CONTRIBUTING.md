@@ -40,7 +40,7 @@ In terms of efficiency, we mean both via code efficiency (/speed) as well as mem
 In terms of it being free and open source, we mean that anyone can do pretty much whatever they want with it (including producing proprietary software) and can make extensions or modifications based on their needs using the open source code.
 
 ### Main Projects
-Note: These projects are in early development, so the information here is subject to change without notice.
+> **Note**: These projects are in early development, so the information here is subject to change without notice. Also note that these projects are not yet transferred to the Tadukooverse organization, but will be soon.
 
 #### Tadukoo Util
 Tadukoo Util is meant as a collection of utility libraries for very common use. They can be used in conjunction with Tadukoo Engine/Launcher, or can be used separately in other programs if desired. This collection is not meant as a full smorgasbord of all libraries, but is just meant to include the most common libraries to be reused in most projects (e.g. common null-safe string/boolean checks, multimaps, view utilities, etc.)
