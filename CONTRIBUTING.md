@@ -16,6 +16,12 @@ and feel free to propose changes to this document in a pull request.
 	* [Tadukoo Util](#tadukoo-util)
 	* [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
 
+[Additional Notes](#additional-notes)
+* [Issue and Pull Request Labels](#issue-and-pull-request-labels)
+	* [Type of Issue](#type-of-issue)
+	* [Level of Change](#level-of-change)
+	* [Issue State](#issue-state)
+
 ## Code of Conduct
 This project and everyone participating in it is governed by the [Tadukooverse Code of Conduct](CODE_OF_CONDUCT.md). 
 By participating, you are expected to uphold this code. Please report unacceptable behavior to [tadukooverse@gmail.com](mailto:tadukooverse@gmail.com).
@@ -51,3 +57,47 @@ Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is used as a
 Tadukoo Launcher provides a list of programs that are installed or may be downloaded. Once a program is selected, the launcher will download it along with its required libraries. Then the libraries and program will be loaded into memory and launched.
 
 Tadukoo Engine provides the proper interfaces that programs should use to allow the launcheer to connect to and load them. In addition, the engine and launcher come with standard libraries from Tadukoo Util by default so they don't need to be downloaded separately later.
+
+## Additional Notes
+### Issue and Pull Request Labels
+The following lists the standard labels that typically exist in all repositories of Tadukooverse. If you notice some labels are missing in a particular repository, please open an issue on that repository.
+
+The labels are grouped by purpose, but it's not required that every issue use a label from every group, and an issue may also have multiple labels from the same group (e.g. `Enhancement` and `New Module` may be on the same issue).
+
+> **Note**: We're currently setting up the contributing guidelines, so this list is likely to change.
+
+#### Type of Issue
+| Label name | `Tadukooverse`‑org :mag_right: | Description |
+| --- | --- | --- |
+| `Bug` | [search][search-tadukooverse-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs |
+| `Documentation` | [search][search-tadukooverse-org-label-documentation] | Changes to be made to the documentation |
+| `Enhancement` | [search][search-tadukooverse-org-label-enhancement] | Feature requests |
+| `New Module` | [search][search-tadukooverse-org-label-new-module] | Feature request which might be a good candidate for a new module, instead of extending existing modules |
+| `Testing` | [search][search-tadukooverse-org-label-testing] | Changes to be made to test cases (e.g. to cover cases not currently covered) |
+
+#### Level of Change
+| Label name | `Tadukooverse`‑org :mag_right: | Description |
+| --- | --- | --- |
+| `Small Change` | [search][search-tadukooverse-org-label-small-change] | Represents a minor change that can be completed quickly |
+
+#### Issue State
+| Label name | `Tadukooverse`‑org :mag_right: | Description |
+| --- | --- | --- |
+| `Beginner` | [search][search-tadukooverse-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Tadukooverse |
+| `Duplicate` | [search][search-tadukooverse-org-label-duplicate] | Issues which are duplicates of other issues, i.e. they have been reported before |
+| `Help Wanted` | [search][search-tadukooverse-org-label-help-wanted] | The Tadukooverse team would appreciate help from the community in resolving these issues |
+| `Invalid` | [search][search-tadukooverse-org-label-invalid] | Issues which aren't valid (e.g. user errors) |
+| `Wontfix` | [search][search-tadukooverse-org-label-wontfix] | The Tadukooverse team has decided not to fix these issues for now, either because they're working as intended or for some other reason |
+
+
+[search-tadukooverse-org-label-beginner]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ABeginner
+[search-tadukooverse-org-label-bug]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ABug
+[search-tadukooverse-org-label-documentation]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ADocumentation
+[search-tadukooverse-org-label-duplicate]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ADuplicate
+[search-tadukooverse-org-label-enhancement]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3AEnhancement
+[search-tadukooverse-org-label-help-wanted]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3AHelp%20Wanted
+[search-tadukooverse-org-label-invalid]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3AInvalid
+[search-tadukooverse-org-label-new-module]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ANew%20Module
+[search-tadukooverse-org-label-small-change]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ASmall%20Change
+[search-tadukooverse-org-label-testing]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3ATesting
+[search-tadukooverse-org-label-wontfix]: https://github.com/search?q=is%3Aopen+is%3Aissue+user%3ATadukooverse+label%3AWontfix
