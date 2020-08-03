@@ -75,6 +75,7 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 > **Note**: We're currently setting up the contributing guidelines, so this list is likely to change.
 
 #### Type of Issue
+
 | Label name | `Tadukooverse`‑org :mag_right: | Description |
 | --- | --- | --- |
 | `Bug` | [search][search-tadukooverse-org-label-bug] | Confirmed bugs or reports that are very likely to be bugs |
@@ -84,6 +85,7 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 | `Testing` | [search][search-tadukooverse-org-label-testing] | Changes to be made to test cases (e.g. to cover cases not currently covered) |
 
 #### Issue Category
+
 | Label Name | `Tadukooverse` -org :mag_right: | Description | 
 | --- | --- | --- | 
 | Crash | [search][search-tadukooverse-org-label-crash] | Reports of the software completely crashing | 
@@ -92,12 +94,14 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 | UI | [search][search-tadukooverse-org-label-ui] | Related to the visual design | 
 
 #### Level of Change
+
 | Label name | `Tadukooverse`‑org :mag_right: | Description |
 | --- | --- | --- |
 | `Epic` | [search][search-tadukooverse-org-label-epic] | A large multi-faceted issue - these would likely have a list of smaller issues contributing towards them |
 | `Small Change` | [search][search-tadukooverse-org-label-small-change] | Represents a minor change that can be completed quickly |
 
 #### Issue State
+
 | Label name | `Tadukooverse`‑org :mag_right: | Description |
 | --- | --- | --- |
 | `Beginner` | [search][search-tadukooverse-org-label-beginner] | Less complex issues which would be good first issues to work on for users who want to contribute to Tadukooverse |
@@ -111,7 +115,6 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 | `Wrong Repo` | [search][search-tadukooverse-org-label-wrong-repo] | Issues reported to the wrong repository |
 
 #### Operating System
-
 
 | Label Name | `Tadukooverse` -org :mag_right: | Description | 
 | --- | --- | --- |
