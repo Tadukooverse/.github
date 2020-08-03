@@ -111,6 +111,8 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 | `Wrong Repo` | [search][search-tadukooverse-org-label-wrong-repo] | Issues reported to the wrong repository |
 
 #### Operating System
+
+
 | Label Name | `Tadukooverse` -org :mag_right: | Description | 
 | --- | --- | --- |
 | `Android` | [search][search-tadukooverse-org-label-android] | Related to running on Android | 
@@ -120,6 +122,7 @@ The labels are grouped by purpose, but it's not required that every issue use a 
 | `Windows` | [search][search-tadukooverse-org-label-windows] | Related to running on Windows | 
 
 #### Pull Request Labels
+
 | Label Name | `Tadukooverse` -org :mag_right: | Description | 
 | --- | --- | --- |
 | `Needs Review` | [search][search-tadukooverse-org-label-needs-review] | Pull Requests that need to be reviewed | 
