@@ -1,3 +1,8 @@
+---
+layout: default
+title: Contributing Guidelines
+---
+
 # Contributing to Tadukooverse
 Firstly, thanks for taking the time to contribute!
 
