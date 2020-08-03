@@ -37,6 +37,8 @@ By participating, you are expected to uphold this code. Please report unacceptab
 ## I Just Have a Question
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
 
+We have an [official website](https://tadukooverse.github.io) for Tadukooverse, which includes an [FAQ page](https://tadukooverse.github.io/about/faq.html) for frequently asked questions.
+
 If chat is more your speed, you can join the Tadukooverse Discord server:
 * [Join the Tadukooverse Discord server](https://discord.gg/cWzhbU7)
 	* Even though Discord is a chat service, sometimes it takes some time for community members to respond &mdash; please be patient!
@@ -52,6 +54,8 @@ Our vision is to create efficient free and open source software.
 In terms of efficiency, we mean both via code efficiency (/speed) as well as memory efficiency, at least as best we can manage with a garbage collected language such as Java.
 
 In terms of it being free and open source, we mean that anyone can do pretty much whatever they want with it (including producing proprietary software) and can make extensions or modifications based on their needs using the open source code.
+
+> **Note**: We have a [Roadmap page](https://tadukooverse.github.io/about/roadmap.html) that shows what we're currently doing to work towards our vision.
 
 ### Main Projects
 > **Note**: These projects are in early development, so the information here is subject to change without notice. Also note that these projects are not yet transferred to the Tadukooverse organization, but will be soon.
