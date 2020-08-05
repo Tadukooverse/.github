@@ -25,6 +25,9 @@ and feel free to propose changes to this document in a pull request.
 * [Reporting Bugs](#reporting-bugs)
 	* [Before Submitting a Bug Report](#before-submitting-a-bug-report)
 	* [How Do I Submit a (Good) Bug Report?](#how-do-i-submit-a-good-bug-report)
+* [Suggesting Enhancements](#suggesting-enhancements)
+	* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
+	* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
 
 [Additional Notes](#additional-notes)
 * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
@@ -106,6 +109,28 @@ Provide more context by answering these questions:
 * **Did the problem start happening recently** (e.g. after updating to a new version of the software) or was this always a problem?
 * If the problem started happening recently, **can you reproduce the problem in an older version**? What's the most recent version in which the problem doesn't happen?
 * **Can you reliably reproduce the issue**? If not, provide details about how often the problem happens and under which conditions it normally happens.
+
+### Suggesting Enhancements
+This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
+
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in [the template](.github/ISSUE_TEMPLATE/feature-request.md), including the steps that you imagine you would take if the feature you're requesting existed.
+
+#### Before Submitting an Enhancement Suggestion
+* **Check the Debugging Guide (Coming Soon)** for tips — you might discover that the enhancement is already available. Most importantly, check if you're using the latest version of the software and if you can get the desired behavior by changing certain config settings.
+* **Check if there's already [a repository](/projects.html) which provides that enhancement**.
+* **Determine [which repository](/projects.html) the enhancement should be suggested in**.
+* **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3ATadukooverse)** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+
+#### How Do I Submit a (Good) Enhancement Suggestion?
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](/projects.html) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
+* **Use a clear and descriptive title** for the issue to identify the suggestion.
+* **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+* **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* **Describe the current behavior and explain which behavior you expected to see instead** and why.
+* **Include screenshots and/or animated GIFs** which help you demonstrate the steps or point out the part of the software which the suggestion is related to.
+* **Explain why this enhancement would be useful**.
+* **Specify which version of the software you're using**.
+* **Specify the name and version of the OS you're using**.
 
 ## Additional Notes
 ### Issue and Pull Request Labels
