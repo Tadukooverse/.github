@@ -29,6 +29,7 @@ and feel free to propose changes to this document in a pull request.
 	* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
 	* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
 * [Your First Code Contribution](#your-first-code-contribution)
+* [Pull Requests](#pull-requests)
 
 [Additional Notes](#additional-notes)
 * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
@@ -140,6 +141,19 @@ Unsure where to begin contributing to Tadukooverse? You can start by looking thr
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
 If you want to read about using the Tadukoo Engine/Launcher or developing programs for it, check out the Tadukoo Engine/Launcher Guide (Coming Soon).
+
+### Pull Requests
+The process described here has several goals:
+* Maintain quality
+* Fix problems that are important to users
+* Engage the community in working toward the best possible software
+* Enable a sustainable system for Tadukooverse's maintainers to review contributions
+
+Please follow these steps to have your contribution considered by the maintainers:
+1. Follow all instructions in [the template](/.github/PULL_REQUEST_TEMPLATE)
+2. Follow the [style guides](#style-guides)
+3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing<details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
+While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
 ## Additional Notes
 ### Issue and Pull Request Labels
