@@ -28,6 +28,7 @@ and feel free to propose changes to this document in a pull request.
 * [Suggesting Enhancements](#suggesting-enhancements)
 	* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
 	* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
+* [Your First Code Contribution](#your-first-code-contribution)
 
 [Additional Notes](#additional-notes)
 * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
@@ -131,6 +132,14 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 * **Explain why this enhancement would be useful**.
 * **Specify which version of the software you're using**.
 * **Specify the name and version of the OS you're using**.
+
+### Your First Code Contribution
+Unsure where to begin contributing to Tadukooverse? You can start by looking through the beginner and help-wanted issues:
+* [Beginner issues](https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3ABeginner+label%3"AHelp+Wanted"+user%3ATadukooverse+sort%3Acomments-desc) - issues which should only require a few lines of code, and a test or two.
+* [Help wanted issues](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3A"Help+Wanted"+user%3ATadukooverse+sort%3Acomments-desc+-label%3ABeginner) - issues which should be a bit more involved than beginner issues.
+Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
+
+If you want to read about using the Tadukoo Engine/Launcher or developing programs for it, check out the Tadukoo Engine/Launcher Guide (Coming Soon).
 
 ## Additional Notes
 ### Issue and Pull Request Labels
