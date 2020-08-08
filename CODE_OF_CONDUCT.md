@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Code of Conduct
+blurb: Our Code of Conduct at Tadukooverse
 ---
 
 # Contributor Covenant Code of Conduct

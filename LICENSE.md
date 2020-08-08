@@ -1,8 +1,3 @@
----
-layout: default
-title: CC-BY-4.0 License
----
-
 Attribution 4.0 International
 
 =======================================================================

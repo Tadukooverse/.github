@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Contributing Guidelines
+blurb: Guidelines on how to contribute to Tadukooverse
 ---
 
 # Contributing to Tadukooverse
