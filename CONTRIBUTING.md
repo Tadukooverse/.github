@@ -11,34 +11,32 @@ The following is a set of guidelines for contributing to Tadukooverse and its pr
 and feel free to propose changes to this document in a pull request.
 
 #### Table of Contents
-[Code of Conduct](#code-of-conduct)
-
-[I Just Have a Question](#i-just-have-a-question)
-
-[What Should I Know?](#what-should-i-know)
-* [Vision](#vision)
-* [Main Projects](#main-projects)
-	* [Tadukoo Util](#tadukoo-util)
-	* [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
-	
-[How Can I Contribute?](#how-can-i-contribute)
-* [Reporting Bugs](#reporting-bugs)
-	* [Before Submitting a Bug Report](#before-submitting-a-bug-report)
-	* [How Do I Submit a (Good) Bug Report?](#how-do-i-submit-a-good-bug-report)
-* [Suggesting Enhancements](#suggesting-enhancements)
-	* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
-	* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
-* [Your First Code Contribution](#your-first-code-contribution)
-* [Pull Requests](#pull-requests)
-
-[Additional Notes](#additional-notes)
-* [Issue and Pull Request Labels](#issue-and-pull-request-labels)
-	* [Type of Issue](#type-of-issue)
-	* [Issue Category](#issue-category)
-	* [Level of Change](#level-of-change)
-	* [Issue State](#issue-state)
-	* [Operating System](#operating-system)
-	* [Pull Request Labels](#pull-request-labels)
+* [Code of Conduct](#code-of-conduct)
+* [I Just Have a Question](#i-just-have-a-question)
+* [What Should I Know?](#what-should-i-know)
+	* [Vision](#vision)
+	* [Main Projects](#main-projects)
+		* [Tadukoo Util](#tadukoo-util)
+		* [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
+* [How Can I Contribute?](#how-can-i-contribute)
+	* [Reporting Bugs](#reporting-bugs)
+		* [Before Submitting a Bug Report](#before-submitting-a-bug-report)
+		* [How Do I Submit a (Good) Bug Report?](#how-do-i-submit-a-good-bug-report)
+	* [Suggesting Enhancements](#suggesting-enhancements)
+		* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
+		* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
+	* [Your First Code Contribution](#your-first-code-contribution)
+	* [Pull Requests](#pull-requests)
+* [Style Guides](#style-guides)
+	* [Java Style Guide](#java-style-guide)
+* [Additional Notes](#additional-notes)
+	* [Issue and Pull Request Labels](#issue-and-pull-request-labels)
+		* [Type of Issue](#type-of-issue)
+		* [Issue Category](#issue-category)
+		* [Level of Change](#level-of-change)
+		* [Issue State](#issue-state)
+		* [Operating System](#operating-system)
+		* [Pull Request Labels](#pull-request-labels)
 
 ## Code of Conduct
 This project and everyone participating in it is governed by the [Tadukooverse Code of Conduct](CODE_OF_CONDUCT.md). 
@@ -154,6 +152,28 @@ Please follow these steps to have your contribution considered by the maintainer
 2. Follow the [style guides](#style-guides)
 3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing<details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
+
+## Style Guides
+### Java Style Guide
+If you use IntelliJ, you can import [these Java Code Style settings](IntelliJ%20Java%20Code%20Style.xml)
+
+* **Note**: This is not necessarily a full list, as there's probably styling we take for granted and assume is standard. If you have any questions, feel free to ask or search the existing code to figure it out.
+* We use tabs, not spaces for indentation
+* Braces are used where optional (e.g. if, else, for, etc. - even if the code block is only one line)
+* In general, if a space isn't necessary, we don't use it
+	* e.g. around parentheses and braces - we do if(<condition>){ - no spaces next to those parentheses or that curly brace
+	* Empty code blocks we place a space in-between though: 
+	```
+	try{
+		doSomething();
+	}catch(Exception e){ }
+	```
+* The column limit is 120 (IntelliJ's default). If you go over this limit, break up the statement at logical points
+* camelCase is used for methods and fields
+* TitleCase is used for class names
+* Constants (defined as private/public static final <type>) should be in CONSTANT_CASE
+* Always specify @Override
+* If IntelliJ gives a warning about it, you should probably change it
 
 ## Additional Notes
 ### Issue and Pull Request Labels
