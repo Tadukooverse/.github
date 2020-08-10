@@ -1,3 +1,7 @@
+---
+title: Security Policy
+blurb: The Security Policy for the Tadukooverse organization
+---
 # Security Policy
 
 ## Supported Versions
