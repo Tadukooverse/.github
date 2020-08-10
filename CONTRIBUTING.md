@@ -159,7 +159,7 @@ While the prerequisites above must be satisfied prior to having your pull reques
 ### Java Style Guide
 *If you use IntelliJ, you can import [these Java Code Style settings](IntelliJ%20Java%20Code%20Style.xml)*
 
-*If you use Eclipse, we will provide settings in the near future for you to use.*
+*If you use Eclipse, you can import [these Java Code Style settings](Eclipse%20Java%20Code%20Style.xml).*
 
 * **Note**: This is not necessarily a full list, as there's probably styling we take for granted and assume is standard. If you have any questions, feel free to ask or search the existing code to figure it out.
 * We use tabs, not spaces for indentation
