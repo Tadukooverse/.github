@@ -29,6 +29,8 @@ and feel free to propose changes to this document in a pull request.
 	* [Pull Requests](#pull-requests)
 * [Style Guides](#style-guides)
 	* [Java Style Guide](#java-style-guide)
+	* [Javadoc Style Guide](#javadoc-style-guide)
+	* [Git Commit Style Guide](#git-commit-style-guide)
 * [Additional Notes](#additional-notes)
 	* [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 		* [Type of Issue](#type-of-issue)
@@ -155,7 +157,9 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ## Style Guides
 ### Java Style Guide
-If you use IntelliJ, you can import [these Java Code Style settings](IntelliJ%20Java%20Code%20Style.xml)
+*If you use IntelliJ, you can import [these Java Code Style settings](IntelliJ%20Java%20Code%20Style.xml)*
+
+*If you use Eclipse, we will provide settings in the near future for you to use.*
 
 * **Note**: This is not necessarily a full list, as there's probably styling we take for granted and assume is standard. If you have any questions, feel free to ask or search the existing code to figure it out.
 * We use tabs, not spaces for indentation
@@ -174,6 +178,42 @@ If you use IntelliJ, you can import [these Java Code Style settings](IntelliJ%20
 * Constants (defined as private/public static final <type>) should be in CONSTANT_CASE
 * Always specify @Override
 * If IntelliJ gives a warning about it, you should probably change it
+
+### Javadoc Style Guide
+Classes, fields, and methods should all be Javadoc'd so that others can understand what's going on.
+
+For classes, we do something similar to the following:
+```
+/**
+ * Custom Cell Renderer used to just have a component draw itself (for use with custom components).
+ * This can be used as either a {@link ListCellRenderer} or as a {@link TableCellRenderer}.
+ *
+ * @author Logan Ferree (Tadukoo)
+ * @version 0.1-Alpha
+ * @since Pre-Alpha
+ */
+ ```
+ * Note that if there are multiple authors, they can be noted in order of contribution
+ * Version is used to denote the most recent version the class was updated during, and since is used for the original version it was created during.
+ 	* If version and since match, we only include version
+
+For fields, we use a single line for the Javadoc, like so:
+```
+/** The x position of the Image */
+```
+
+For a method, if you're simply inheriting the documentation from the method you're overriding, you can do this on a single line. Otherwise, it should be multiple lines, like the class Javadoc is (but no need for author, version, or since):
+```
+/** {@inheritDoc} */
+```
+
+### Git Commit Style Guide
+* Keep the commit name short
+* Reference issues and pull requests always in the body of the commit
+* Consider including a relevant emoji for what was done (e.g. :art: for UI changes, etc.)
+* Include actual details about your change
+	* E.g. Don't just say "Added X Class", tell us what that class does
+	* E.g. Don't just say "Fixed X Bug", tell us what you changed to fix it, and note any unit tests you added to prevent it in the future
 
 ## Additional Notes
 ### Issue and Pull Request Labels
