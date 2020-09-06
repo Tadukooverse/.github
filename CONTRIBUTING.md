@@ -142,6 +142,9 @@ Unsure where to begin contributing to Tadukooverse? You can start by looking thr
 * [Help wanted issues](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3A"Help+Wanted"+user%3ATadukooverse+sort%3Acomments-desc+-label%3ABeginner) - issues which should be a bit more involved than beginner issues.
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
+When you start working on an issue, create a new branch off of the release it's for, named ```<release branch name>-<issue name>``` (e.g. ```v.0.2-Alpha-SNAPSHOT-Tadukoo-Look-&-Feel```). 
+For more information about how we use Git branches, check out the [Git Branching Guide](https://tadukooverse.github.io/guides/git-branching.html).
+
 ### Pull Requests
 The process described here has several goals:
 * Maintain quality
