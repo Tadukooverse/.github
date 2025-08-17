@@ -2,8 +2,6 @@
 title: Security Policy
 blurb: The Security Policy for the Tadukooverse organization
 ---
-# Security Policy
-
 ## Supported Versions
 When we setup proper releases, this section will be updated with the actual versions of the software we support. Currently everything is 
 too early in development.

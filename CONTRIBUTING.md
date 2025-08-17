@@ -1,44 +1,12 @@
 ---
-title: Contributing Guidelines
+title: Contributing to Tadukooverse
 blurb: Guidelines on how to contribute to Tadukooverse
 ---
-
-# Contributing to Tadukooverse
 Firstly, thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to Tadukooverse and its projects, which are hosted in the 
 [Tadukooverse Organization](https://github.com/Tadukooverse) on GitHub. These are mostly guidelines, not rules. Use your best judgment, 
 and feel free to propose changes to this document in a pull request.
-
-#### Table of Contents
-* [Code of Conduct](#code-of-conduct)
-* [I Just Have a Question](#i-just-have-a-question)
-* [What Should I Know?](#what-should-i-know)
-	* [Vision](#vision)
-	* [Main Projects](#main-projects)
-		* [Tadukoo Util](#tadukoo-util)
-		* [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
-* [How Can I Contribute?](#how-can-i-contribute)
-	* [Reporting Bugs](#reporting-bugs)
-		* [Before Submitting a Bug Report](#before-submitting-a-bug-report)
-		* [How Do I Submit a (Good) Bug Report?](#how-do-i-submit-a-good-bug-report)
-	* [Suggesting Enhancements](#suggesting-enhancements)
-		* [Before Submitting an Enhancement Suggestion](#before-submitting-an-enhancement-suggestion)
-		* [How Do I Submit a (Good) Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
-	* [Your First Code Contribution](#your-first-code-contribution)
-	* [Pull Requests](#pull-requests)
-* [Style Guides](#style-guides)
-	* [Java Style Guide](#java-style-guide)
-	* [Javadoc Style Guide](#javadoc-style-guide)
-	* [Git Commit Style Guide](#git-commit-style-guide)
-* [Additional Notes](#additional-notes)
-	* [Issue and Pull Request Labels](#issue-and-pull-request-labels)
-		* [Type of Issue](#type-of-issue)
-		* [Issue Category](#issue-category)
-		* [Level of Change](#level-of-change)
-		* [Issue State](#issue-state)
-		* [Operating System](#operating-system)
-		* [Pull Request Labels](#pull-request-labels)
 
 ## Code of Conduct
 This project and everyone participating in it is governed by the [Tadukooverse Code of Conduct](CODE_OF_CONDUCT.md). 
@@ -65,7 +33,8 @@ In terms of efficiency, we mean both via code efficiency (/speed) as well as mem
 
 In terms of it being free and open source, we mean that anyone can do pretty much whatever they want with it (including producing proprietary software) and can make extensions or modifications based on their needs using the open source code.
 
-> **Note**: We have a [Roadmap page](https://tadukooverse.github.io/about/roadmap.html) that shows what we're currently doing to work towards our vision.
+> **Note**: We have a [Tadukooverse Master Plan page](https://tadukooverse.github.io/about/tadukooverse-master-plan.html) that shows what we're currently doing to work towards our vision on our main projects, 
+and an [Other Projects page](https://tadukooverse.github.io/about/other-project-plans.html) for other projects we're working on.
 
 ### Main Projects
 > **Note**: These projects are in early development, so the information here is subject to change without notice. Also note that these projects are not yet transferred to the Tadukooverse organization, but will be soon.
